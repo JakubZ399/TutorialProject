@@ -566,4 +566,8 @@ FodyWeavers.xsd
 ### VisualStudio Patch ###
 # Additional files built by Visual Studio
 
+# --- Allow built modules for designers ---
+!Binaries/
+!Binaries/**/*
+
 # End of https://www.toptal.com/developers/gitignore/api/unrealengine,rider,visualstudio
